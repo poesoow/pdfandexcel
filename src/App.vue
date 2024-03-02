@@ -1,4 +1,6 @@
 <script setup>
+import HelloWorld from './components/HelloWorld.vue'
+import DownloadPdf from './components/PDF/HelloWorld.vue';
 import DownloadExcel from './components/EXCEL/HelloWorld.vue'
 </script>
 
@@ -11,7 +13,9 @@ import DownloadExcel from './components/EXCEL/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <DownloadExcel msg="Vite + Vue" />
+  <HelloWorld msg="Vite + Vue" />
+  <DownloadPdf />
+  <DownloadExcel />
 </template>
 
 <style scoped>
