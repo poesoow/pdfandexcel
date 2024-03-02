@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "exceljs": "^4.4.0",
+    "file-saver": "^2.0.5",
     "vue": "^3.4.19"
   },
   "devDependencies": {
