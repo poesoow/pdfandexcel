@@ -11,6 +11,8 @@
   "dependencies": {
     "exceljs": "^4.4.0",
     "file-saver": "^2.0.5",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2",
     "vue": "^3.4.19"
   },
   "devDependencies": {
